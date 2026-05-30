@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables (JANGAN commit ini)
+.env
+
+# Data files (terlalu besar untuk GitHub)
+data/raw/*.csv
+*.csv
+
+# macOS
+.DS_Store
+
+# Outputs (share via Google Drive atau Tableau Public)
+outputs/*.xlsx
+
+# Tableau Desktop files (terlalu besar)
+*.twb
+*.twbx
+*.hyper
+*.tde
+*.twbr
+*.twb
+*.twbx
+.vscode/

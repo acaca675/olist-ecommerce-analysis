@@ -1,0 +1,28 @@
+# OLIST PROJECT — Python Requirements
+# Install with: pip install -r requirements.txt
+
+# PostgreSQL adapter
+psycopg2-binary==2.9.9
+
+# SQLAlchemy ORM / connection pooling
+SQLAlchemy==2.0.23
+
+# Data manipulation
+pandas==2.1.4
+numpy==1.26.2
+
+# Environment variable management (secure credentials)
+python-dotenv==1.0.0
+
+# Excel export
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+
+# Jupyter Notebook (optional — for interactive EDA)
+jupyter==1.0.0
+ipykernel==6.27.1
+
+# Data visualization (optional — for Python-side plots)
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.18.0
