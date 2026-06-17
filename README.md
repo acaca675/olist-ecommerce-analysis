@@ -39,7 +39,7 @@ This project answers all of the above with production-grade SQL, automated Pytho
 
 ## Dashboard Preview
 
-> *[Replace with your actual screenshot — add to /images folder]*
+
 
 ```
 images/
