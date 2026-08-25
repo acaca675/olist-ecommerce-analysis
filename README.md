@@ -59,25 +59,25 @@ This project answers all of the above with production-grade SQL, automated Pytho
 ### Executive Summary
 Monthly GMV trend, top revenue categories, and customer retention overview.
 
-![Executive Summary Dashboard](images/dashboard_overview.png)
+![Executive Summary Dashboard](dashboard_overview.png)
 
 ### Delivery & Satisfaction
 On-time delivery rate by state and the direct impact of delivery delay on review scores.
 
-![Delivery & Satisfaction Dashboard](images/dashboard_delivery.png)
+![Delivery & Satisfaction Dashboard](dashboard_delivery.png)
 
 ### Seller Intelligence
 Revenue vs. quality quadrant analysis and freight cost burden by state.
 
-![Seller Intelligence Dashboard](images/dashboard_sellers.png)
+![Seller Intelligence Dashboard](dashboard_sellers.png)
 
 ### Customer Segment
 RFM segmentation of customers by loyalty and value.
 
-![Customer Segment Dashboard](images/dashboard_customer_segment.png)
+![Customer Segment Dashboard](dashboard_customer_segment.png)
 
 ```
-images/
+olist-ecommerce-analysis/
 ├── dashboard_overview.png
 ├── dashboard_delivery.png
 ├── dashboard_sellers.png
@@ -107,8 +107,11 @@ olist-ecommerce-analysis/
 │   └── exports/
 │       └── 02_export_to_excel.py       # SQL → formatted Excel export
 │
-├── outputs/                            # Generated Excel reports (gitignored)
-├── images/                             # Dashboard screenshots
+├── outputs/                             # Generated Excel reports (gitignored)
+├── dashboard_overview.png               # Dashboard screenshots (repo root)
+├── dashboard_delivery.png
+├── dashboard_sellers.png
+├── dashboard_customer_segment.png
 ├── config/
 │   └── .env.template                   # Credential template (never commit .env)
 │
